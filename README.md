@@ -1,12 +1,1 @@
 # my-app
-name: My First GitHub Action
-
-on:
-  push:
-
-jobs:
-  hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Say Hello
-        run: echo "GitHub Actions is working!"
